@@ -1,0 +1,32 @@
+{
+  "name": "ahj-helpdesk-http-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rescue3112/ahj-HelpDesk-Http-back.git"
+  },
+  "author": "rescue3112",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "bugs": {
+    "url": "https://github.com/rescue3112/ahj-HelpDesk-Http-back/issues"
+  },
+  "homepage": "https://github.com/rescue3112/ahj-HelpDesk-Http-back#readme"
+}
